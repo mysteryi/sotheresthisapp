@@ -14,11 +14,15 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <form class="navbar-form navbar-left" role="search">
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Productivity Apps">
+        <!-- trying to take from the search bar on http://mijlo.com/ -->
+        <form action="/search" class="navbar-form navbar-right navbar-search-box" id="header-search" role="search">
+          <label id="search-label" for="header-search-text"><span class="visible-md visible-lg">Search</span><span class="visible-xs visible-sm"><i class="mi mi-search"></i></span></label>
+          <div class="" id="search-box">
+            <div id="search-box-in" class="form-group"> 
+              <input id="header-search-text" class="form-control" name="q" type="text">
+              <button type="submit" class="btn btn-default hidden-xs hidden-sm"><i class="mi mi-search-btn"></i></button>
+            </div>
           </div>
-          <button type="submit" class="btn btn-default">Search</button>
         </form>
         <li></li>
         <li><%= link_to "About", about_path %></li>
