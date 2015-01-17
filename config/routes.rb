@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   root "pages#home"
   get "about" => "pages#about"
   get "startups" => "pages#startups"
+  get "instacart" => "pages#let-instacart-be-your-grocery-sherpa"
 
 
   # The priority is based upon order of creation: first created -> highest priority.
