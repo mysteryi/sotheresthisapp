@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   get "about" => "pages#about"
   get "startups" => "pages#startups"
   get "instacart" => "pages#let-instacart-be-your-grocery-sherpa"
+  get "classpass" => "pages#no-more-excuses-with-classpass"
+  get "shyp" => "pages#shyp-more-procrastinate-less"
 
 
   # The priority is based upon order of creation: first created -> highest priority.
