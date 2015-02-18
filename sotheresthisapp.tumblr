@@ -1,0 +1,10 @@
+# Authenticate via OAuth
+client = Tumblr::Client.new({
+  :consumer_key => 'YOD3C2AyZAD9tv4XHTtsyHk8JouRa0e4xyOLIjDZ2pnqEaEiER',
+  :consumer_secret => 'wEPJ5XyjUt6XbAPXOaqFDoJCBIyCJ3Dy2mRmov0shnCZA6A3Sp',
+  :oauth_token => 'bh03tg0vZVsddZDP37PnKlLeW0gkbeMJFJ1b4CPlLKkHfntBnw',
+  :oauth_token_secret => 'vnZCuE9ySuAfAeKhoV9oyxpyeRQGcawnSYYa5O2YrPi1ZyaBRA'
+})
+
+# Make the request
+client.info 

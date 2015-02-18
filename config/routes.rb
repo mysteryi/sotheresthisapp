@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   get "instacart" => "pages#let-instacart-be-your-grocery-sherpa"
   get "classpass" => "pages#no-more-excuses-with-classpass"
   get "shyp" => "pages#shyp-more-procrastinate-less"
+  get "venmo" => "pages#keep-friends-by-splitting-bills-with-venmo"
+  get "shyp-tumblr" => "pages#shyp-tumblr"
 
 
   # The priority is based upon order of creation: first created -> highest priority.
